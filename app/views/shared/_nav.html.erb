@@ -1,0 +1,15 @@
+<nav>
+  <img class="logo" src="https://logosmarcas.net/wp-content/uploads/2020/11/Reddit-Logo.png" alt="">
+  <div class="search-bar">
+    <form action="/">
+      <span>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Pesquisar no Reddit">
+      </span>
+    </form>
+  </div>
+  <div class="button-wrapper">
+    <%= link_to "Login", new_account_session_path, class: "btn btn-outline-primary" %>
+    <%= link_to "Sign Up", new_account_registration_path, class: "btn btn-primary" %>
+  </div>
+</nav>

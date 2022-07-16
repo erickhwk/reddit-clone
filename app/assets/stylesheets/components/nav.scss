@@ -1,0 +1,25 @@
+nav {
+  padding: 0 1.25rem;
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.search-bar {
+  margin: 0 auto;
+
+  input {
+    width: 20rem;
+    border: none;
+  }
+}
+
+.button-wrapper {
+  margin-left: auto;
+}
